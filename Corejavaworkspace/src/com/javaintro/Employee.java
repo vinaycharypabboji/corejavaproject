@@ -11,13 +11,16 @@ public class Employee {
 	void main(String[] args) {
 		Employee emp = new Employee();
 		System.out.println("Employee Information");
+		System.out.println("---------------------------------------");
 		emp.eId = 101;
 		emp.eName = "Revi";
 		System.out.println("Organization ID:" + orgID);
 		System.out.println("Organization Name:" + orgName);
 		System.out.println("Employee ID:" + emp.eId);
 		System.out.println("Employee Name:" + emp.eName);
+		System.out.println("---------------------------------------");
 		crazy();
+		System.out.println("---------------------------------------");
 		display();
 	}
 	
